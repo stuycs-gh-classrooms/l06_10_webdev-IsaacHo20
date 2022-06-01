@@ -24,11 +24,11 @@ function setup() {
 }
 
 function draw() {
-  background(150);
+  background(col(150));
   fill(col);
   
   line(centerx, centery, gx, gy);
-  circle(gx, gy, 50);
+  circle(gx, gy, int(50));
   
   if (theta < 360) {
     theta += 6;
